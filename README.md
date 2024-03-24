@@ -8,6 +8,12 @@ Para fazer o teste você mesmo, poderá acessar o repositório do grupo 3 e ir e
 ./2024-T0003-ES09-G03/codigo/backend/src/scripts/loads/answerdReport
 ```
 
+Depois de ter o projeto configurado na sua máquina, poderá rodar: 
+
+```
+k6 run ./case_1.js
+```
+
 Abaixo você consegue ver o teste de carga feito para 10 VU's em 5 minutos (300s)
 
 ![image](https://github.com/yveslevi/k6-atv/assets/98428867/7217ebce-c5b0-4dc2-96e0-fc6ba40946c3)
